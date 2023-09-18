@@ -1,0 +1,60 @@
+#team {
+    padding: 100px 0px 100px 0px;
+
+    .container {
+        h2 {
+            font-size: 50px;
+            color: $secondary-color;
+            text-shadow: -3px 1px 3px $main-color;
+
+            @include xs {font-size: 37px;}
+            @include sm {font-size: 37px;}
+
+            &::after {
+                content: '';
+                background: $secondary-color;
+                display: block;
+                height: 3px;
+                width: 170px;
+                margin: 20px auto 5px;
+            }
+        }
+
+        .imgBox {
+            opacity: 1;
+
+            &:hover {
+                ul {
+                    opacity: 1;
+                }
+            }
+
+            img {
+                border-radius: 5%;
+                filter: grayscale(1);
+
+                &:hover {
+                    filter: grayscale(0);
+                    cursor: pointer;
+                }
+            }
+
+            h3 {
+                font-size: 30px;
+                color: $secondary-color;
+                text-shadow: -1px 1px 3px $main-color;
+            }
+
+            h4 {
+                font-size: 20px;
+                color: $secondary-color;
+                text-shadow: -1px 1px 3px $main-color;
+            }
+
+            p {
+                font-size: 17px;
+                color: $secondary-color;
+            }
+        }
+    }
+}

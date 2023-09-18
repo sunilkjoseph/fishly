@@ -1,0 +1,35 @@
+#contact_us {
+    padding: 100px 0px 0px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/back-photos/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $white-color !important;
+    background-attachment: fixed;
+    clip-path: polygon(51% 0, 100% 25%, 100% 100%, 0 100%, 0 25%);
+
+    @include xs {clip-path: polygon(51% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);}
+    @include sm {clip-path: polygon(51% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);}
+    @include md {clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);}
+    @include lg {clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);}
+    @include xl {clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);}
+
+    .container {
+        margin-top: 200px !important;
+
+        @include xs {margin-top: 0px !important;}
+        @include sm {margin-top: 0px !important;}
+        @include md {margin-top: 0px !important;}
+        @include lg {margin-top: 0px !important;}
+
+        p {font-size: 40px;}
+
+        .btn {
+            background-image: linear-gradient(to right, $main-color, $secondary-color);
+            margin: 20px 0px 30px 0px;
+            font-size: 25px;
+            font-weight: 700;
+        }
+    }
+
+    .bottom-img {clip-path: polygon(51% 57%, 0 100%, 100% 100%);}
+}

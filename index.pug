@@ -1,0 +1,364 @@
+doctype html
+html(lang="en")
+    head
+        //- Basic Page Needs
+        meta(charset="utf-8")
+        title Business Website Design
+        meta(name="description" content="Business Website Design")
+        meta(name="keywords" content="")
+        meta(name="author" content="Mohammed_Sabri")
+        |
+        |
+        //- Mobile Specific Metas
+        meta(name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge,chrome=1")
+        |
+        |
+        //- Fixed
+        link(rel="stylesheet" href="css/vendor/fixed/fixed.css")
+        |
+        |
+        //- Normalize
+        link(rel="stylesheet" href="css/vendor/normalize/normalize.min.css")
+        |
+        |
+        //- Wowjs
+        link(rel="stylesheet" href="css/vendor/wow.js/animate.css")
+        |
+        |
+        //- Bootstrap
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous")
+        |
+        |
+        //- FontAwesome
+        script(src="https://kit.fontawesome.com/028972b223.js" crossorigin="anonymous")
+        |
+        |
+        //- CSS Stylesheet
+        link(rel="stylesheet" href="css/output.css")
+        |
+        |
+        //- Favicons
+        link(rel="shortcut icon" href="favicon/favicon-me.ico")
+        |
+        |
+    body(data-spy="scroll" data-target="#navbarResponsive" id="top")
+        |
+        |
+        //- Start Header Part
+        header#header
+
+            //- Start Navigation
+            nav.navbar.navbar-expand-md.navbar-dark.fixed-top
+
+                //- Navbar-Brand
+                a(class="navbar-brand" class="wow bounceIn" href="#header")
+                    img(src="imgs/logo/MS Design(dark blue2-white).png" loading="lazy" alt="logo")
+                button(class="navbar-toggler" class="wow bounceIn" type="button" data-toggle="collapse" data-target="#navbarResponsive")
+                    span(class="navbar-toggler-icon")
+
+                //- Nav-Item
+                .collapse.navbar-collapse.outline-none#navbarResponsive
+                    ul.navbar-nav.ml-auto
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#header") Home
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#about") About
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#services") Services
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#team") Team
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#prices") Prices
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#testimonials") Testimonials
+                        li.nav-item.wow.bounceIn
+                            a(class="nav-link float-right text-uppercase font-weight-bold" href="#contacts") Contacts
+            //- End Navigation
+            |
+            |
+            //- Start Hero-Section
+            #hero_section
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-6.wow.bounceIn
+                            h1.text-white.text-justify.font-weight-bold.text-uppercase Let's Make Your Own Business With Us
+                            h6.text-white.text-justify.font-weight-bold.text-uppercase confidence
+                            h5.text-white.text-justify.font-weight-bold.text-uppercase Experience
+                            h4.text-white.text-justify.font-weight-bold.text-uppercase cooperation
+                            h3.text-white.text-justify.font-weight-bold.text-uppercase commitment
+                            h2.text-white.text-justify.font-weight-bold.text-uppercase Development
+                            a(href="#about" class="btn btn-lg btn-1 float-left text-white text-justify font-weight-bold text-uppercase wow bounceIn") Who We Are 
+                                i(class="fas fa-hand-point-down")
+                            
+                        .col-md-6.wow.bounceIn
+                            img(src="imgs/hero-section/team.png" class="wow bounceIn" loading="lazy" alt="hero-section-photo")
+                img(src="imgs/clips/clip.png" class="bottom-img w-100" loading="lazy" alt="clip-photo")
+            //- End Hero-Section
+            |
+            |
+        //- End Header Part
+        |
+        |
+        //- Start Main Part
+        main#main
+            //- Start About Section
+            #about
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-6.wow.bounceIn
+                            h2.text-justify.font-weight-bold.text-uppercase About Us 
+                            p.text-justify.pt-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis perferendis, aliquam tenetur doloremque optio alias mollitia deserunt nostrum incidunt ut veniam quo ratione, ipsam odio? <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque nobis perferendis, aliquam tenetur doloremque optio alias mollitia deserunt nostrum incidunt ut veniam quo ratione, ipsam odio? Maiores veniam deserunt nisi <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, illo veniam, voluptates doloremque fuga dolorum est nobis molestias veritatis temporibus sit asperiores.
+                            button(type="button" class="btn btn-primary float-left font-weight-bold") Read More 
+                                i(class="fas fa-angle-double-right")
+                        .col-md-6.wow.bounceIn
+                            img(src="imgs/about-section/about.png" loading="lazy" class="wow bounceIn" alt="about-section-photo")
+            //- End About Section
+            |
+            |
+            //- Start Services Section
+            #services
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-12.wow.bounceIn
+                            h2.text-white.text-center.text-uppercase.font-weight-bold Our Services
+                    .row.justify-content-around.text-center
+                        .col-lg-3.wow.bounceIn
+                            .icon
+                                i(class="fas fa-shuttle-van display-4 my-4 mx-auto p-4")
+                            h3.text-white.font-weight-bold.text-uppercase Trade
+                            p.text-white.text-justify.mt-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt cumque et nam excepturi.
+                        .col-lg-3.wow.bounceIn
+                            .icon
+                                i(class="fas fa-chart-line display-4 my-4 mx-auto p-4")
+                            h3.text-white.font-weight-bold.text-uppercase analytics
+                            p.text-white.text-justify.mt-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident nesciunt cumque et nam excepturi. ipsum dolor sit amet consectetur adipisicing elit.
+                        .col-lg-3.wow.bounceIn
+                            .icon
+                                i(class="fab fa-adversal display-4 my-4 mx-auto p-4")
+                            h3.text-white.font-weight-bold.text-uppercase Advertising
+                            p.text-white.text-justify.mt-4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem cum numquam provident impedit? Similique architecto illo quod.
+                        .col-lg-3.wow.bounceIn
+                            .icon
+                                i(class="fas fa-comments-dollar display-4 my-4 mx-auto p-4")
+                            h3.text-white.font-weight-bold.text-uppercase Marketing
+                            p.text-white.text-justify.mt-4 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor officia rerum inventore ab consequuntur eos quo.
+                img(src="imgs/clips/clip.png" class="bottom-img w-100" loading="lazy" alt="clip-photo")
+            //- End Services Section
+            |
+            |
+            //- Start Team Section
+            #team
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-12.wow.bounceIn
+                            h2.text-uppercase.font-weight-bold Our Team
+                    .row.justify-content-around.text-center
+                        .col-lg-3.wow.bounceIn
+                            .imgBox.d-block.position-relative.mt-4
+                                img(src="imgs/team-section/team1.jpg" class="w-100 wow bounceIn" loading="lazy" alt="team1-photo")
+                                h3.font-weight-bold.mt-3 Antoan Dzeer
+                                h4.text-uppercase.font-weight-bold.mt-3 Marketer
+                                p.text-justify.mt-4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi necessitatibus ratione optio.
+                        .col-lg-3.wow.bounceIn
+                            .imgBox.d-block.position-relative.mt-4
+                                img(src="imgs/team-section/team2.jpg" class="w-100 wow bounceIn" loading="lazy" alt="team2-photo")
+                                h3.font-weight-bold.mt-3 Sally White
+                                h4.text-uppercase.font-weight-bold.mt-3 administrator
+                                p.text-justify.mt-4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi necessitatibus ratione optio.
+                        .col-lg-3.wow.bounceIn
+                            .imgBox.d-block.position-relative.mt-4
+                                img(src="imgs/team-section/team3.jpg" class="w-100 wow bounceIn" loading="lazy" alt="team3-photo")
+                                h3.font-weight-bold.mt-3 Jack Welson
+                                h4.text-uppercase.font-weight-bold.mt-3 seller
+                                p.text-justify.mt-4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi necessitatibus ratione optio.
+                        .col-lg-3.wow.bounceIn
+                            .imgBox.d-block.position-relative.mt-4
+                                img(src="imgs/team-section/team4.jpg" class="w-100 wow bounceIn" loading="lazy" alt="team4-photo")
+                                h3.font-weight-bold.mt-3 Sophia Jone
+                                h4.text-uppercase.font-weight-bold.mt-3 Founder / CEO
+                                p.text-justify.mt-4 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi necessitatibus ratione optio.
+            //- End Team Section
+            |
+            |
+            //- Start Contact Us Section
+            #contact_us
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-12.wow.bounceIn
+                            p.font-weight-bold We always welcome your inquiry
+                            a(href="#" class="btn btn-primary") Contact Us
+                img(src="imgs/clips/clip.png" class="bottom-img w-100" loading="lazy" alt="clip-photo")
+            //- End Contact Us Section
+            |
+            |
+            //- Start Prices Section
+            #prices
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-12.wow.bounceIn
+                            h2.text-uppercase.font-weight-bold Price Plan
+                    .row
+                        .col-lg-3.wow.bounceIn
+                            .single-price.d-inline.float-left.w-100.my-3.mx-auto
+                                .price-head.d-inline.float-left.w-100.text-center
+                                    h3.text-white.font-weight-bold.text-uppercase.p-2.mb-2 Basic
+                                    p.text-white.font-weight-bold $10/
+                                        span Monthly
+                                .price-content.d-inline.float-left.w-100.py-0.px-3
+                                    ul.p-0
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 5GB Space </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 10GB Bandwidth </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> 15 Email Account </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> Unlimited Domain </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> Unlimited Support </li>
+                                .price-button.d-inline.float-left.text-center.text-uppercase.w-100
+                                    a(href="#" class="buy-btn") Join Now
+                        .col-lg-3.wow.bounceIn
+                            .single-price.d-inline.float-left.w-100.my-3.mx-auto
+                                .price-head.d-inline.float-left.w-100.text-center
+                                    h3.text-white.font-weight-bold.text-uppercase.p-2.mb-2 Standard
+                                    p.text-white.font-weight-bold $30/
+                                        span Quarterly
+                                .price-content.d-inline.float-left.w-100.py-0.px-3
+                                    ul.p-0
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 5GB Space </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 10GB Bandwidth </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 15 Email Account </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> Unlimited Domain </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> Unlimited Support </li>
+                                .price-button.d-inline.float-left.text-center.text-uppercase.w-100
+                                    a(href="#" class="buy-btn") Join Now
+                        .col-lg-3.wow.bounceIn
+                            .single-price.d-inline.float-left.w-100.my-3.mx-auto
+                                .price-head.d-inline.float-left.w-100.text-center
+                                    h3.text-white.font-weight-bold.text-uppercase.p-2.mb-2 Pro
+                                    p.text-white.font-weight-bold $50/
+                                        span Semi-annual
+                                .price-content.d-inline.float-left.w-100.py-0.px-3
+                                    ul.p-0
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 5GB Space </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 10GB Bandwidth </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 15 Email Account </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> Unlimited Domain </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-times-circle"></i> Unlimited Support </li>
+                                .price-button.d-inline.float-left.text-center.text-uppercase.w-100
+                                    a(href="#" class="buy-btn") Join Now
+                        .col-lg-3.wow.bounceIn
+                            .single-price.d-inline.float-left.w-100.my-3.mx-auto
+                                .price-head.d-inline.float-left.w-100.text-center
+                                    h3.text-white.font-weight-bold.text-uppercase.p-2.mb-2 Premium
+                                    p.text-white.font-weight-bold $90/
+                                        span Annual
+                                .price-content.d-inline.float-left.w-100.py-0.px-3
+                                    ul.p-0
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 5GB Space </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 10GB Bandwidth </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> 15 Email Account </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> Unlimited Domain </li>
+                                        <li class="text-white font-weight-bold list-unstyled py-3 px-0"><i class="fas fa-check-circle"></i> Unlimited Support </li>
+                                .price-button.d-inline.float-left.text-center.text-uppercase.w-100
+                                    a(href="#" class="buy-btn") Join Now
+            //- End Prices Section
+            |
+            |
+            //- Start Testimonials Section
+            #testimonials
+                .container
+                    .row.justify-content-around.text-center
+                        .col-md-12.wow.bounceIn
+                            h2.text-white.text-uppercase.font-weight-bold Testimonials
+
+                    .row.justify-content-around.text-center
+                        .col-lg-3.wow.bounceIn
+                            .profile
+                                img(src="imgs/testimonials-section/testi_1.png" class="user" loading="lazy" alt="testi_1-photo")
+                                blockquote Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam.
+                                h3.font-weight-bold.text-uppercase.text-white.mt-3 Angela Jr <br>
+                                    span.text-white Artist 
+                        .col-lg-3.wow.bounceIn
+                            .profile
+                                img(src="imgs/testimonials-section/testi_2.png" class="user" loading="lazy" alt="testi_2-photo")
+                                blockquote Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam.
+                                h3.font-weight-bold.text-uppercase.text-white.mt-3 Adam Kevin <br>
+                                    span.text-white Actor
+                        .col-lg-3.wow.bounceIn
+                            .profile
+                                img(src="imgs/testimonials-section/testi_3.png" class="user" loading="lazy" alt="testi_3-photo")
+                                blockquote Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam.
+                                h3.font-weight-bold.text-uppercase.text-white.mt-3 Sam Obama <br>
+                                    span.text-white Musician
+                        .col-lg-3.wow.bounceIn
+                            .profile
+                                img(src="imgs/testimonials-section/testi_4.png" class="user" loading="lazy" alt="testi_3-photo")
+                                blockquote Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, eum. Sed, exercitationem placeat. Quis soluta incidunt maxime numquam.
+                                h3.font-weight-bold.text-uppercase.text-white.mt-3 Frank Jed <br>
+                                    span.text-white Author
+                img(src="imgs/clips/clip2.png" class="bottom-img w-100" loading="lazy" alt="clip-photo")
+            //- End Testimonials Section
+        //- End Main Part
+
+        //- Start Footer Part
+        |
+        |
+        //- Start Contacts Section
+        #contacts
+            .container
+                .row.justify-content-around.text-center
+                    .col-md-12.wow.bounceIn
+                        h2.text-white.text-uppercase.font-weight-bold Get in touch
+
+                .row.justify-content-around.text-center
+                    .col-md-6.wow.bounceIn
+                        form.contact-form.p-3
+                            .form-group
+                                input(type="text" class="form-control" placeholder="Your name ...")
+                            .form-group
+                                input(type="number" class="form-control" placeholder="Phone no ...")
+                            .form-group
+                                input(type="email" class="form-control" placeholder="Email id ...")
+                            .form-group
+                                textarea(class="form-control" row="4" placeholder="Message ...")
+                            button(type="submit" class="btn btn-primary") SEND MESSAGE
+                    .col-md-6.wow.bounceIn
+                        .contact-info
+                            <div class="follow"> <i class="fas fa-map-marker-alt font-weight-bold"></i> XYZ Road, Barcelona </div>
+                            <div class="follow"> <i class="fas fa-phone font-weight-bold"></i> (+888) 888 888 888 </div>
+                            <div class="follow"> <i class="fas fa-envelope font-weight-bold"></i> test@test.com </div>
+        //- End Contacts Section
+        |
+        |
+        //- Start Footer Section
+        footer#footer.text-white.p-3.font-weight-bold
+            .container
+                .row.justify-content-around.text-center
+                    .col-md-12.wow.bounceIn
+                        p.m-0 Created By    
+                            span Mohammed Sabri
+        //- End Footer Section
+        |
+        |
+        //- End Footer Part
+
+        //- Start JS Stylesheet
+        |
+        |
+        //- jQuery CDN
+        script(src="js/vendor/jquery/jquery-3.3.1.js")
+        |
+        |
+        //- Bootstrap
+        script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous")
+        script(src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous")
+        |
+        |
+        //- Wow js
+        script(src="js/vendor/wow.js/wow.min.js")
+        |
+        |
+        //- JS Stylesheet
+        script(src="js/main.js")
+        |
+        |
+        //- End JS Stylesheet

@@ -1,0 +1,37 @@
+#header {
+    .navbar {
+        background: linear-gradient(to right, $main-color, $secondary-color);
+
+        .navbar-brand {
+            img {width: 60%;}
+        }
+
+        .navbar-nav {
+            font-size: 20px;
+
+            @include lg {font-size: 13px;}
+            @include xl {font-size: 16px;}
+        
+            .nav-item {
+                padding: 0 10px;
+
+                @include lg {padding: 5px;}
+                @include xl {padding: 5px;}
+        
+                .nav-link {
+                    color: $white-color;
+                    transition: all .8s ease-in-out;
+    
+                    &:hover,
+                    &:focus,
+                    &.active {
+                        color: $white-color;
+                        border-bottom: 1px solid  $white-color;
+                        transform: scale(1.1);
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

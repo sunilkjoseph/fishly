@@ -1,0 +1,59 @@
+#contacts {
+    background: linear-gradient(to right, $main-color, $secondary-color);
+    padding: 100px 0px 100px 0px;
+
+    .container {
+        h2 {
+            font-size: 50px;
+
+            @include xs {font-size: 37px;}
+            @include sm {font-size: 37px;}
+
+            &::after {
+                content: '';
+                background: $white-color;
+                display: block;
+                height: 3px;
+                width: 170px;
+                margin: 20px auto 5px;
+            }
+        }
+
+        .contact-form {
+
+            .form-control {
+                border-radius: 0 !important;
+                border: none !important;
+            }
+
+            ::placeholder {
+                color: #999 !important;
+            }
+
+            .btn {
+                background: linear-gradient(to right, $main-color, $secondary-color) !important;
+                outline: none !important;
+            }
+        }
+
+        .contact-info {
+            .follow {
+                background: $white-color;
+                color: $secondary-color;
+                font-size: 20px;
+                font-weight: 700;
+                padding: 10px;
+                margin: 15px;
+
+                @include xs {font-size: 18px;}
+                @include sm {font-size: 18px;}
+
+                i {
+                    margin: 10px;
+                    color: $main-color;
+                    // float: left;
+                }
+            }
+        }
+    }
+}

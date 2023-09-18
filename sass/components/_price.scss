@@ -1,0 +1,105 @@
+#prices {
+    padding: 100px 0px 100px 0px;
+
+    .container {
+
+        h2 {
+            font-size: 50px;
+            color: $secondary-color;
+            text-shadow: -3px 1px 3px $main-color;
+
+            @include xs {font-size: 37px;}
+            @include sm {font-size: 37px;}
+
+            &::after {
+                content: '';
+                background: $secondary-color;
+                display: block;
+                height: 3px;
+                width: 170px;
+                margin: 20px auto 5px;
+            }
+        }
+
+        .single-price {
+            background: $main-color;
+            border-radius: 50px;
+            transition: all .8s ease-in-out;
+
+            &:hover {
+                box-shadow: 0 2px 20px #333;
+                cursor: pointer;
+            }
+
+            .price-head {
+                background-color: $third-color;
+                padding: 10px 5px;
+                border-radius: 50px 50px 0px 0px;
+
+                h3 {
+                    font-size: 30px;
+                    text-shadow: none;
+                }
+
+                p {
+                    font-size: 25px;
+                    line-height: 30px;
+
+                    span {font-size: 15px;}
+                }
+            }
+
+            .price-content {
+                ul {
+                    li {
+                        font-size: 16px;
+                        border-bottom: 1px solid #efefef;
+
+                        @include md {text-align: center !important;}
+                        @include lg {text-align: center !important;}
+
+                        &:last-child {border: none;}
+
+                        .fa-check-circle {
+                            color: #2ed573;
+                            margin-right: 10px;
+                            font-size: 20px;
+                        }
+
+                        .fa-times-circle {
+                            color: #ff3838;
+                            margin-right: 10px;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+
+            .price-button {
+                padding: 15px 15px 30px;
+
+                a {
+                    text-decoration: none !important;
+                    color: $secondary-color !important;
+                    background-color: $white-color !important;
+                    padding: 10px 15px;
+                    border-radius: 10px;
+
+                    .buy-btn {
+                        background-clip: $main-color;
+                        border-radius: 3px;
+                        display: inline-block;
+                        font-size: 18px;
+                        padding: 15px 50px;
+                        transition: all .8s ease-in-out;
+    
+                        &:hover {
+                            border-color: 1px solid $white-color;
+                            background-color: #3f51b5;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

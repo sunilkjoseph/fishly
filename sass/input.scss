@@ -1,0 +1,24 @@
+// Abstracts
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// Base
+@import "base/fonts";
+
+// Components
+
+@import "components/hero-section";
+@import "components/about";
+@import "components/services";
+@import "components/team";
+@import "components/contact-us";
+@import "components/price";
+@import "components/testimonials";
+@import "components/contacts";
+
+// Layout
+@import "layout/navbar";
+@import "layout/footer";
+
+// Pages
+@import "pages/page";

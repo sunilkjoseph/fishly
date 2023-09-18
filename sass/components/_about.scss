@@ -1,0 +1,30 @@
+#about {
+    padding: 100px 0px 100px 0px;
+
+    .container {
+        h2 {
+            font-size: 50px;
+            color: $secondary-color;
+            text-shadow: -3px 1px 3px $main-color;
+
+            @include xs {text-align: center !important;}
+            @include sm {text-align: center !important;}
+            @include md {text-align: center !important;}
+        }
+
+        p {
+            font-size: 20px;
+            color: $secondary-color;
+        }
+
+        .btn {
+            background-image: linear-gradient(to right, $main-color, $secondary-color);
+            margin: 20px 0px 30px 0px;
+        }
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}

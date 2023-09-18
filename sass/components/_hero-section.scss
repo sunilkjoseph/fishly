@@ -1,0 +1,57 @@
+#hero_section {
+    background: linear-gradient(to right, $main-color, $secondary-color);
+    padding: 200px 0px 0px 0px;
+
+    @include xs {padding: 50px 0px 0px 0px;}
+    @include sm {padding: 50px 0px 0px 0px;}
+    @include md {padding: 50px 0px 0px 0px;}
+
+    .container {
+
+        h1 {
+            font-size: 46px;
+            margin-top: 100px;
+            text-shadow: 7px 1px 3px $secondary-color;
+        }
+
+        h6 {
+            margin-top: 10px;
+            text-shadow: 3px 1px 3px $secondary-color;
+        }
+
+        h5 {
+            margin-top: 10px;
+            text-shadow: 3px 1px 3px $secondary-color;
+        }
+
+        h4 {text-shadow: 3px 1px 3px $secondary-color;}
+        h3 {text-shadow: 3px 1px 3px $secondary-color;}
+        h2 {text-shadow: 4px 1px 3px $secondary-color;}
+
+        a {
+            margin: 30px 0px 0px 0px;
+            font-size: 25px;
+            font-family: 'Open Sans', sans-serif;
+            text-shadow: 3px 1px 3px $secondary-color;
+
+            &:hover,
+            &:focus,
+            &.active {
+                background: linear-gradient(to right, $main-color, $secondary-color);
+                cursor: pointer;
+            }
+        }
+
+        img {
+            height: auto;
+            max-width: 100%;
+            padding-top: 130px;
+
+            @include xs {padding-top: 0px;}
+            @include sm {padding-top: 0px;}
+            @include md {padding-top: 0px;}
+        }
+    }
+
+    .bottom-img {clip-path: polygon(51% 57%, 0 100%, 100% 100%);}
+}

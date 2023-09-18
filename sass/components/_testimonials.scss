@@ -1,0 +1,77 @@
+#testimonials {
+    padding: 100px 0px 0px 0px;
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../imgs/back-photos/service.jpg);
+    background-size: cover;
+    background-position: center;
+    color: $white-color !important;
+    background-attachment: fixed;
+    clip-path: polygon(51% 0, 100% 25%, 100% 100%, 0 100%, 0 25%);
+
+    @include xs {clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);}
+    @include sm {clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);}
+    @include md {clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);}
+    @include lg {clip-path: polygon(51% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);}
+    @include xl {clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);}
+
+    .container {
+        .row {
+            h2 {
+                font-size: 50px;
+    
+                @include xs {font-size: 37px;}
+                @include sm {font-size: 37px;}
+    
+                &::after {
+                    content: '';
+                    background: $white-color;
+                    display: block;
+                    height: 3px;
+                    width: 170px;
+                    margin: 20px auto 5px;
+                }
+            }
+            
+            .col-lg-3 {
+                margin: 200px auto 0px;
+
+                .profile {
+                    padding: 70px 10px 10px;
+                    background: linear-gradient(to right, $main-color, $secondary-color);
+
+                    &:hover {
+                        box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+                        cursor: pointer;
+                        transition: all 0.8s ease-in-out;
+                    }
+                    
+                    img {
+                        width: 100%;
+                        position: absolute;
+                        top: -60px;
+                        left: calc(50% - 60px);
+                        border: 5px solid $white-color;
+                    }
+
+                    .user {
+                        width: 120px;
+                        height: 120px;
+                        border-radius: 50%;
+                    }
+
+                    blockquote {
+                        font-size: 16px;
+                        line-height: 30px;
+                    }
+
+                    h3 {
+                        font-size: 25px;
+
+                        span {font-size: 15px;}
+                    }
+                }
+            }
+        }
+    }
+
+    .bottom-img {clip-path: polygon(51% 57%, 0 100%, 100% 100%);}
+}
