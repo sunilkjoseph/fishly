@@ -116,7 +116,7 @@
 
 #services {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/back-photos/carp.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/back-photos/carp.jpg);
   background-size: cover;
   background-position: center;
   color: #fff !important;
@@ -232,10 +232,10 @@
 }
 #team .container .imgBox img {
   border-radius: 5%;
-  filter: grayscale(1);
+  filter: grayscale(0);
 }
 #team .container .imgBox img:hover {
-  filter: grayscale(0);
+  filter: grayscale(1);
   cursor: pointer;
 }
 #team .container .imgBox h3 {
@@ -255,7 +255,7 @@
 
 #contact_us {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/back-photos/fish.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish.jpg);
   background-size:contain;
   background-position: center;
   color: #fff !important;
@@ -426,7 +426,7 @@
 
 #testimonials {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../imgs/back-photos/fish2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish2.jpg);
   background-size: cover;
   background-position: center;
   color: #fff !important;
