@@ -840,3 +840,15 @@ p {
   font-size: 0.6rem;
   margin: 5px 0;
 }
+.g-map iframe{
+  width: 100%;
+}
+.whatsapp-btn-container .whatsapp-btn {
+  font-size: 72px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  line-height: 3rem;
+  background-color: white;
+  --fa-animation-duration: 3s;
+}
