@@ -1,9 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900");
+
+/* @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
+body {
+  padding-top: 70px;
+  background: #ddd;
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar-fixed-top.scrolled .nav-link {
+  color:#0c0101;
+} */
+
+
 #hero_section {
-  background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50);
+  /* background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50); */
   padding: 200px 0px 0px 0px;
 }
 @media all and (max-width: 320px) {
@@ -121,8 +139,15 @@
 }
 #about .container h2 {
   font-size: 50px;
+  font-weight: 200;
   color: #2c3e50;
   text-shadow: -3px 1px 3px #2980b9;
+}
+.p_s {
+  font-size: 20px;
+  font-weight: 200;
+  color: #2c3e50;
+  text-shadow: -2px 1px 3px #2980b9;
 }
 @media all and (max-width: 320px) {
   #about .container h2 {
@@ -141,7 +166,8 @@
 }
 #about .container p {
   font-size: 20px;
-  color: #2c3e50;
+  font-weight: 200;
+  color: #000305;
 }
 #about .container .btn {
   background-image: linear-gradient(to right,#a8d5f4, #057dcd, #2c3e50);
@@ -157,9 +183,19 @@
 }
 #macro .container_h2 {
   font-size: 50px;
+  font-weight: 200;
   color: #2c3e50;
   text-shadow: -3px 1px 3px #2980b9;
 }
+#macro .container .col-md-12 h2::after {
+  content: "";
+  background: #2c3e50;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
+
 @media all and (max-width: 320px) {
   #macro .container h2 {
     text-align: center !important;
@@ -177,7 +213,8 @@
 }
 #macro .macro_p {
   font-size: 20px;
-  color: #2c3e50;
+  font-weight: 200;
+  color: #000305;
 }
 /* #macro .container .btn {
   background-image: linear-gradient(to right,#a8d5f4, #057dcd, #2c3e50);
@@ -191,14 +228,14 @@
 
 #services {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/back-photos/carp.jpg);
-  background-size: cover;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/back-photos/carp.jpg); */
+  /* background-size: cover;
   background-position: center;
   color: #fff !important;
-  background-attachment: fixed;
-  clip-path: polygon(51% 0, 100% 25%, 100% 100%, 0 100%, 0 25%);
+  background-attachment: fixed; */
+  /* clip-path: polygon(51% 0, 100% 25%, 100% 100%, 0 100%, 0 25%); */
 }
-@media all and (max-width: 320px) {
+/* @media all and (max-width: 320px) {
   #services {
     clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);
   }
@@ -222,9 +259,13 @@
   #services {
     clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
   }
-}
+} */
 #services .container h2 {
+  /* font-size: 50px; */
   font-size: 50px;
+  font-weight: 200;
+  color: #2c3e50;
+  text-shadow: -3px 1px 3px #2980b9;
 }
 @media all and (max-width: 320px) {
   #services .container h2 {
@@ -238,46 +279,59 @@
 }
 #services .container h2::after {
   content: "";
-  background: #fff;
+  background: #2c3e50;
   display: block;
   height: 3px;
   width: 170px;
   margin: 20px auto 5px;
 }
 #services .container .col-lg-3:hover {
-  background: #2980b9;
-  border-radius: 20%;
+  /* background: #2980b9;
+  border-radius: 20%; */
   cursor: pointer;
   transition: all 0.8s ease-in-out;
 }
 #services .container .col-lg-3:hover h3::after {
   content: "";
-  background: #fff;
+  background: #2c3e50;
   display: block;
   height: 3px;
   width: 150px;
   margin: 10px auto 0px;
 }
+#services .container .col-lg-3{
+  /* background: #2980b9; */
+  border: #2c3e50 0px solid;
+  border-radius: 15px;
+  /* box-shadow: 0 0 3px 1px #333; */
+}
 #services .container .col-lg-3 h3 {
   font-size: 24px;
+  font-weight: 300;
+  color: #2c3e50;
+  text-shadow: -2px 1px 3px #2980b9;
 }
 #services .container .col-lg-3 p {
-  font-size: 18px;
+  font-size: 17px;
+  font-weight: 300;
+  /* font-size: 20px; */
+  color: #2c3e50;
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   #services .container .col-lg-3 p {
     font-size: 15px;
   }
 }
-#services .bottom-img {
+/* #services .bottom-img {
   clip-path: polygon(51% 57%, 0 100%, 100% 100%);
-}
+} */
 
 #team {
   padding: 100px 0px 100px 0px;
 }
 #team .container h2 {
   font-size: 50px;
+  font-weight: 200;
   color: #2c3e50;
   text-shadow: -3px 1px 3px #2980b9;
 }
@@ -308,18 +362,23 @@
 #team .container .imgBox img {
   border-radius: 5%;
   filter: grayscale(0);
+  transition: all 0.3s ease-in-out;
 }
 #team .container .imgBox img:hover {
-  filter: grayscale(1);
+  /* filter: grayscale(1);
+  cursor: pointer; */
+  box-shadow: 0 2px 20px #333;
   cursor: pointer;
 }
 #team .container .imgBox h3 {
   font-size: 30px;
+  
   color: #2c3e50;
   text-shadow: -1px 1px 3px #2980b9;
 }
 #team .container .imgBox h4 {
   font-size: 20px;
+  font-weight: 200;
   color: #2c3e50;
   text-shadow: -1px 1px 3px #2980b9;
 }
@@ -330,7 +389,7 @@
 
 #contact_us {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish.jpg); */
   background-size:contain;
   background-position: center;
   color: #fff !important;
@@ -403,6 +462,7 @@
 }
 #prices .container h2 {
   font-size: 50px;
+  font-weight: 200;
   color: #2c3e50;
   text-shadow: -3px 1px 3px #2980b9;
 }
@@ -440,10 +500,12 @@
 }
 #prices .container .single-price .price-head h3 {
   font-size: 30px;
+  font-weight: 200;
   text-shadow: none;
 }
 #prices .container .single-price .price-head p {
   font-size: 25px;
+  font-weight: 100;
   line-height: 30px;
 }
 #prices .container .single-price .price-head p span {
@@ -451,6 +513,7 @@
 }
 #prices .container .single-price .price-content ul li {
   font-size: 16px;
+  font-weight: 200;
   border-bottom: 1px solid #efefef;
 }
 @media all and (min-width: 577px) and (max-width: 767px) {
@@ -501,7 +564,7 @@
 
 #testimonials {
   padding: 100px 0px 0px 0px;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish2.jpg);
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish2.jpg); */
   background-size: cover;
   background-position: center;
   color: #fff !important;
@@ -534,7 +597,11 @@
   }
 }
 #testimonials .container .row h2 {
+  /* font-size: 50px; */
   font-size: 50px;
+  font-weight: 200;
+  color: #2c3e50;
+  text-shadow: -3px 1px 3px #2980b9;
 }
 @media all and (max-width: 320px) {
   #testimonials .container .row h2 {
@@ -548,18 +615,18 @@
 }
 #testimonials .container .row h2::after {
   content: "";
-  background: #fff;
+  background: #2c3e50;
   display: block;
   height: 3px;
   width: 170px;
   margin: 20px auto 5px;
 }
 #testimonials .container .row .col-lg-3 {
-  margin: 200px auto 0px;
+  margin: 100px auto 0px;
 }
 #testimonials .container .row .col-lg-3 .profile {
   padding: 70px 10px 10px;
-  background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50);
+  background: linear-gradient(to right, #057dcd, #2c3e50);
 }
 #testimonials .container .row .col-lg-3 .profile:hover {
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.2);
@@ -571,7 +638,7 @@
   position: absolute;
   top: -60px;
   left: calc(50% - 60px);
-  border: 5px solid #fff;
+  border: 5px solid #a8d5f4;
 }
 #testimonials .container .row .col-lg-3 .profile .user {
   width: 120px;
@@ -580,10 +647,12 @@
 }
 #testimonials .container .row .col-lg-3 .profile blockquote {
   font-size: 16px;
+  font-weight: 200;
   line-height: 30px;
 }
 #testimonials .container .row .col-lg-3 .profile h3 {
   font-size: 25px;
+  font-weight: 200;
 }
 #testimonials .container .row .col-lg-3 .profile h3 span {
   font-size: 15px;
@@ -593,12 +662,16 @@
 }
 
 #contacts {
-  background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50);
+  /* background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50); */
   padding: 100px 0px 100px 0px;
 }
 
 #contacts .container h2 {
+  /* font-size: 50px; */
   font-size: 50px;
+  font-weight: 200;
+  color: #2c3e50;
+  text-shadow: -3px 1px 3px #2980b9;
 }
 @media all and (max-width: 320px) {
   #contacts .container h2 {
@@ -612,7 +685,7 @@
 }
 #contacts .container h2::after {
   content: "";
-  background: #fff;
+  background: #2c3e50;
   display: block;
   height: 3px;
   width: 170px;
@@ -633,7 +706,7 @@
   background: #fff;
   color: #2c3e50;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 300;
   padding: 10px;
   margin: 15px;
 }
@@ -653,7 +726,9 @@
 }
 
 #header .navbar {
-  background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50);
+  /* background: #fffffb; */
+  background-color: rgba(255, 255, 255, .5);
+  /* background-image: linear-gradient( rgba(255,255,255,1),rgba(255,255,255,0.9), rgba(255,255,255,0)); */
 }
 #header .navbar .navbar-brand img {
   width: 60%;
@@ -685,19 +760,23 @@
   }
 }
 #header .navbar .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  /* color: #040101; */
   transition: all 0.8s ease-in-out;
+  font-size: 16px;
+  color: #2c3e50;
+  text-shadow: -1px 1px 3px #2980b9;
 }
 #header .navbar .navbar-nav .nav-item .nav-link:hover, #header .navbar .navbar-nav .nav-item .nav-link:focus, #header .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #fff;
-  border-bottom: 1px solid #fff;
+  color: #120101;
+  border-bottom: 1px solid #060000;
   transform: scale(1.1);
   cursor: pointer;
 }
 
 #footer {
   background: #333;
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 200;
 }
 @media all and (max-width: 320px) {
   #footer {
@@ -710,7 +789,7 @@
   }
 }
 #footer p span {
-  color: #2980b9;
+  color: #057dcd;
 }
 
 * {
@@ -735,7 +814,7 @@ html ::-webkit-scrollbar-thumb {
 
 body {
   overflow-x: hidden;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", "Poppins" ;
 }
 body ::-moz-selection {
   /* Code for Firefox */
@@ -849,6 +928,6 @@ p {
   right: 30px;
   bottom: 30px;
   line-height: 3rem;
-  background-color: white;
+  /* background-color: white; */
   --fa-animation-duration: 3s;
 }
