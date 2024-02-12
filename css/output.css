@@ -3,25 +3,9 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,400,700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900");
 
-/* @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
-
-body {
-  padding-top: 70px;
-  background: #ddd;
-}
-
-.navbar-fixed-top.scrolled {
-  background-color: #fff !important;
-  transition: background-color 200ms linear;
-}
-
-.navbar-fixed-top.scrolled .nav-link {
-  color:#0c0101;
-} */
 
 
 #hero_section {
-  /* background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50); */
   padding: 200px 0px 0px 0px;
 }
 @media all and (max-width: 320px) {
@@ -216,52 +200,14 @@ body {
   font-weight: 200;
   color: #000305;
 }
-/* #macro .container .btn {
-  background-image: linear-gradient(to right,#a8d5f4, #057dcd, #2c3e50);
-  margin: 20px 0px 30px 0px;
-}
-#macro .container img {
-  height: auto;
-  max-width: 100%;
-} */
 
 
 #services {
   padding: 100px 0px 0px 0px;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../imgs/back-photos/carp.jpg); */
-  /* background-size: cover;
-  background-position: center;
-  color: #fff !important;
-  background-attachment: fixed; */
-  /* clip-path: polygon(51% 0, 100% 25%, 100% 100%, 0 100%, 0 25%); */
 }
-/* @media all and (max-width: 320px) {
-  #services {
-    clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);
-  }
-}
-@media all and (min-width: 321px) and (max-width: 576px) {
-  #services {
-    clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);
-  }
-}
-@media all and (min-width: 577px) and (max-width: 767px) {
-  #services {
-    clip-path: polygon(51% 0, 100% 3%, 100% 100%, 0 100%, 0 3%);
-  }
-}
-@media all and (min-width: 768px) and (max-width: 991px) {
-  #services {
-    clip-path: polygon(51% 0, 100% 8%, 100% 100%, 0 100%, 0 8%);
-  }
-}
-@media all and (min-width: 992px) and (max-width: 1199px) {
-  #services {
-    clip-path: polygon(51% 0, 100% 15%, 100% 100%, 0 100%, 0 15%);
-  }
-} */
+
 #services .container h2 {
-  /* font-size: 50px; */
+  
   font-size: 50px;
   font-weight: 200;
   color: #2c3e50;
@@ -286,8 +232,7 @@ body {
   margin: 20px auto 5px;
 }
 #services .container .col-lg-3:hover {
-  /* background: #2980b9;
-  border-radius: 20%; */
+ 
   cursor: pointer;
   transition: all 0.8s ease-in-out;
 }
@@ -300,10 +245,10 @@ body {
   margin: 10px auto 0px;
 }
 #services .container .col-lg-3{
-  /* background: #2980b9; */
+
   border: #2c3e50 0px solid;
   border-radius: 15px;
-  /* box-shadow: 0 0 3px 1px #333; */
+ 
 }
 #services .container .col-lg-3 h3 {
   font-size: 24px;
@@ -314,7 +259,7 @@ body {
 #services .container .col-lg-3 p {
   font-size: 17px;
   font-weight: 300;
-  /* font-size: 20px; */
+ 
   color: #2c3e50;
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
@@ -322,9 +267,7 @@ body {
     font-size: 15px;
   }
 }
-/* #services .bottom-img {
-  clip-path: polygon(51% 57%, 0 100%, 100% 100%);
-} */
+
 
 #team {
   padding: 100px 0px 100px 0px;
@@ -365,8 +308,7 @@ body {
   transition: all 0.3s ease-in-out;
 }
 #team .container .imgBox img:hover {
-  /* filter: grayscale(1);
-  cursor: pointer; */
+
   box-shadow: 0 2px 20px #333;
   cursor: pointer;
 }
@@ -389,7 +331,7 @@ body {
 
 #contact_us {
   padding: 100px 0px 0px 0px;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish.jpg); */
+  
   background-size:contain;
   background-position: center;
   color: #fff !important;
@@ -564,7 +506,7 @@ body {
 
 #testimonials {
   padding: 100px 0px 0px 0px;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/back-photos/fish2.jpg); */
+  
   background-size: cover;
   background-position: center;
   color: #fff !important;
@@ -597,7 +539,7 @@ body {
   }
 }
 #testimonials .container .row h2 {
-  /* font-size: 50px; */
+  
   font-size: 50px;
   font-weight: 200;
   color: #2c3e50;
@@ -662,12 +604,12 @@ body {
 }
 
 #contacts {
-  /* background: linear-gradient(to right, #a8d5f4, #057dcd, #2c3e50); */
+  
   padding: 100px 0px 100px 0px;
 }
 
 #contacts .container h2 {
-  /* font-size: 50px; */
+ 
   font-size: 50px;
   font-weight: 200;
   color: #2c3e50;
@@ -726,9 +668,9 @@ body {
 }
 
 #header .navbar {
-  /* background: #fffffb; */
+  
   background-color: rgba(255, 255, 255, .5);
-  /* background-image: linear-gradient( rgba(255,255,255,1),rgba(255,255,255,0.9), rgba(255,255,255,0)); */
+  
 }
 #header .navbar .navbar-brand img {
   width: 60%;
@@ -817,7 +759,7 @@ body {
   font-family: "Roboto", "Poppins" ;
 }
 body ::-moz-selection {
-  /* Code for Firefox */
+ 
   color: #fff;
   background: #2c3e50;
 }
@@ -826,9 +768,7 @@ body ::selection {
   background: #2c3e50;
 }
 
-/*# sourceMappingURL=output.css.map */
 
-/* Nutrition Label */
 
 
 .label {
@@ -928,6 +868,5 @@ p {
   right: 30px;
   bottom: 30px;
   line-height: 3rem;
-  /* background-color: white; */
   --fa-animation-duration: 3s;
 }
